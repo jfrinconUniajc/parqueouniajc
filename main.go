@@ -3,13 +3,13 @@ package main
 import (
 	"log"
 
-	"./bd"
-	"./handlers"
+	"github.com/jfrinconUniajc/parqueouniajc/bd"
+	"github.com/jfrinconUniajc/parqueouniajc/handlers"
 )
 
 func main() {
 	if bd.CheckConnection() == 0 {
-		log.Fatal("Sin conexxion")
+		log.Fatal("Sin conexion")
 		return
 	}
 	handlers.ControllerUSer()
