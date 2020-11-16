@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/parqueouniajc/bd"
-	"github.com/parqueouniajc/handlers"
+	"./bd"
+	"./handlers"
 )
 
 func main() {
